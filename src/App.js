@@ -1,24 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Section from './Section/Section.jsx'
+// import Modal from './Modal/modal.jsx'
+import Navbar from './Navbar/navbar.jsx';
+import Header from './Header/Header.jsx'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+    <Navbar/>
+    {/* <Modal/> */}
+    <Header/>
+    <Section/>
+
+   </>
   );
 }
 

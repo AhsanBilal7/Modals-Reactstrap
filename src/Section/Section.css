@@ -1,0 +1,18 @@
+.sec{
+    margin: 5px 10px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid red;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 5px;
+    color: red;
+    background-color: rgba(255, 91, 91, 0.338);
+}
+.sec p{
+
+    margin: 0px;
+
+padding: 0px;
+}

@@ -1,0 +1,11 @@
+.mainheader img{
+
+width: 100px;
+border-radius: 5px;
+object-fit: cover;
+height: 60vh;
+
+}
+.cimage{
+    margin: 5px 10px;
+}
